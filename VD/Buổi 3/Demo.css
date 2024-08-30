@@ -1,0 +1,16 @@
+.ablum div{
+    text-align: center;
+}
+.ablum img{
+    width: 200px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px greenyellow;
+}
+.ablum button{
+    boder: none;
+    border-radius: 20px;
+    background: white;
+    padding: 10px 30px;
+    margin-top: 10px;
+    box-shadow: inset 0 0 20px blue;
+}

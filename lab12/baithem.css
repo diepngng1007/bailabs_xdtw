@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+.all {
+    width: 980px;
+    margin: auto;
+}
+
+/*header*/
+header {
+    background-color: #bcd4f4;
+    height: 152px;
+    position: relative;
+}
+
+header img {
+    margin: 25px 441px 25px 440px;
+    position: absolute;
+}
+
+/* nav */
+nav {
+    background-color: #323232;
+    height: 35px;
+    margin-bottom: 8px;
+}
+
+nav a {
+    color: #fefbfb;
+    text-decoration: none;
+    line-height: 35px;
+    margin-left: 25px;
+}
+
+nav .a {
+    margin-left: 42px;
+    float: left;
+}
+
+nav .tk {
+    line-height: 35px;
+    float: right;
+    margin-right: 4px;
+}
+
+nav .tk input {
+    border: 1px solid #cccccc;
+    margin-right: 13px;
+    width: 302px;
+    height: 22px;
+    outline: none;
+}
+
+nav .tk button {
+    border: 1px solid #cccccc;
+    background-color: #272f54;
+    color: #fff;
+    font-size: 11pt;
+    width: 95px;
+    height: 22px;
+}
+
+/* article */
+article {
+    margin-top: 9px;
+}
+
+article .khoi1 {
+    border: 1px solid #000;
+    height: 317px;
+    width: 980px;
+    position: relative;
+}
+
+article .khoi1 img {
+    margin: 10px 28px 67px 36px;
+    width: 450px;
+    height: 290px;
+    float: left;
+}
+
+article .khoi1 .chu {
+    width: 450px;
+    float: left;
+    margin-top: 15px;
+}
+
+article .khoi1 .chu h3 {
+    color: #810303;
+    margin-top: 15px;
+    margin-bottom: 47px;
+}  
+
+/* nội dung 2 */
+.nd2 {
+    position: relative;
+}
+
+.nd2 div {
+    width: 300px;
+    height: 390px;
+    border: 1px solid #000;
+    float: left;
+    margin-right: 26px;
+}
+
+.nd2 div img {
+    width: 244px;
+    margin: 15px 25px 15px 30px;
+}
+
+.nd2 .chu2 {
+    position: absolute;
+    border: none;
+    margin-left: 20px;
+}
+
+.nd2 .chu2 h3 {
+    color: #810303;
+    margin: 10px 0 10px 0;
+}
+
+/* footer */
+footer {
+    margin-top: 20px;
+    height: 40px;
+    background-color: #0b5daa;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}

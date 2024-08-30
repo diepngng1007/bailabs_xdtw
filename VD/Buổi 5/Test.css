@@ -1,0 +1,19 @@
+.box{
+    border: 1px solid red;
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: aqua;
+
+    /* background-image: url(/image/nền.jpg); */
+    background-size: 100% 100%;
+    box-shadow: 10px 10px 10px pink;
+}
+
+h2{
+    border: 1px solid greenyellow;
+    color: blue;
+}

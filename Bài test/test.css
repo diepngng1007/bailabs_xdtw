@@ -1,0 +1,81 @@
+.all {
+    width: 650px;
+    height: 150px;
+    margin: auto;
+    background-color: white;
+}
+
+nav {
+    height: 40px;
+    margin: auto;
+    background-color: #14294b;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 42px;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.content1 {
+    width: 650px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.box1 {
+    border: 1px solid red;
+    float: left;
+    width: 45%;
+    height: 270px;
+    margin: 10px;
+    text-align: center;
+}
+.box1 img{
+    margin: 15px 10px 10px 10px;
+}
+.box2 {
+    border: 1px solid red;
+    float: left;
+    width: 100%;
+    height: 360px;
+    margin: 10px;
+}
+
+.box2 img{
+    margin: 15px 10px 10px 10px;
+}
+
+footer {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    height: 75px;
+    line-height: 65px;
+    background-color: #bcd4f4;
+    color: black;
+    font-size: 18pt;
+}
+
+.tim-kiem{
+    background-color: #14294b;
+    width: 100%;
+    height: 40px;
+}
+input{
+    width: 50%;
+    height: 20px;
+    margin: 10px;
+}
+button{
+    width: 5%;
+    height: 20px;
+    background-color: black;
+}

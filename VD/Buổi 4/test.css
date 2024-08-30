@@ -1,0 +1,17 @@
+p{
+    font-family: Arial;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 40px -10px 5px rebeccapurple;
+
+    color: royalblue;
+    line-height: 50px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    border: 5px double rosybrown;
+}

@@ -1,0 +1,27 @@
+.Tieude{
+    text-align: center;
+    padding: 5px;
+    color: orange;
+    height: 40px;
+    border-color: orange;
+    border-width: 10px;
+    border-style: double;
+    font-size: 30px ;
+  }
+
+.tieude{
+    text-align:right;
+    background: rgb(238, 155, 0);
+    color: white;
+    font-size: 25px;
+}
+
+.noidung{
+    font-size: 25px;
+}
+
+.noidung:first-letter {
+    font-size: 400%;
+    color: red;  
+}
+  

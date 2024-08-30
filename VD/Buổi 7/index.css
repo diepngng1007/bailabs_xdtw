@@ -1,0 +1,31 @@
+.box{
+    margin: 10px 2px;
+}
+.fe{
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    color: orangered;
+    display: block;
+    outline: none;
+}
+.fe:focus{
+    box-shadow: 0 0 3px orangered;
+}
+.button{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px gray;
+    padding: 5px 10px;
+    outline: none;
+}
+.button:focus{
+    box-shadow: 0 0 3px orangered;
+    color: orangered;
+}
+.button:disabled{
+    text-decoration: line-through;
+}

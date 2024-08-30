@@ -1,0 +1,30 @@
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+    text-align: justify;
+}
+
+.vmenu a{
+    text-decoration: none;
+    line-height: 30px;
+    background: url(image/hinhtron.jfif) no-repeat 5px center;
+    border-bottom: 1px dotted orangered ;
+    color: orangered ;
+    font-variant: small-caps;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+    padding: 5px 5px 6px 30px;
+    display: block;
+}
+
+ .vmenu a:hover{
+    background: url(image/hinhtron.jfif) no-repeat 5px center;
+    background-color: cornsilk;
+    background-position: left;
+    background-size: 20px;
+    font-weight: bold;
+ }

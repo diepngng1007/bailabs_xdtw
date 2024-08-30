@@ -1,0 +1,166 @@
+.boder{
+    background-color: white;
+    margin: 0 auto;
+}
+.boder>center>.all{
+    margin: 0px;
+  padding: 0px;
+}
+.all{
+    width: 1000px;
+    margin: 0px;
+}
+.header{
+    height: 220px;
+    background-color: white;
+}
+.header> img{
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    height: 40px;
+   background-color: wheat;
+    text-align: center;
+}
+.menu> nav{
+    font-variant: small-caps;
+  padding: 10px;
+}
+.menu>nav>a {
+    color: black;
+    text-decoration:none;
+    margin: 30px;
+    font-size: 20px;
+}
+.menu>nav>a:hover{
+    text-decoration:underline;
+}
+.content{
+height: 850px;
+    background-color: mistyrose;;
+}
+  
+.left{
+    height: 100%;
+    width: 200px;
+    float: left;
+    background-color: white;
+}
+.title>h2{
+    background-color: darkcyan;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+.left>nav{
+    margin: 3px;
+    color: white;
+    float: left;
+    border-radius: 5px;
+    background-color: hotpink;
+}
+.left>nav>h3{
+    line-height: 10px;
+    padding: 0px;
+    margin-left: 3px;
+}
+.left>nav:hover{
+   background-color: burlywood;
+}
+.dinhdang{
+   padding-top: 10px;
+    height: 45px;
+    background-color: thistle;
+}
+.gioitinh>nav{
+    margin-top: 50px;
+    background-color: darkcyan;
+    color: white;
+    line-height: 30px;
+}
+
+.gioitinh>.abc> ul{
+  
+    padding-left: 10px;
+    border: 1px dotted gray;
+    background-color: thistle;
+    padding: 0px;
+}
+.abc> ul >li{
+    
+    line-height: 30px;
+    display: block;
+}
+.abc> ul >li >a{
+    display: block;
+   color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.ten>h3{
+    background-color: darkcyan;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    margin-top: 50px;
+}
+ul{
+    margin-top: 0px;
+}
+.ten> ul{
+    border: 1px dotted gray;
+    background-color: thistle;
+    padding: 0px;
+}
+.ten> ul >li{
+    display: block;
+    line-height: 25px;
+}
+.ten> ul >li >a{
+        display: block;
+       color: black;
+        text-decoration: none;
+        text-align: center;
+}
+
+.noidung {
+    height: 100%;
+    width: 800px;
+    float: right;
+    background-color: mistyrose;
+}
+.noidung>.sanpham{
+    width: 23%;
+    height: 230px;
+    float: left;
+    margin: 25px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.sanpham> img{
+    height: 80%;
+    width: 100%;
+}
+.sanpham>.gia{
+    padding-top: 10px;
+    color: orangered;
+   
+}
+.footer{
+    height: 100px;
+    background-color:antiquewhite;
+
+}
+.footer>div{
+    padding: 2px;
+   
+}
+.noidung> :hover{
+    border: 2px solid orange;
+    box-shadow: 1px 1px 1px orange;
+}
+.all{
+    border: 1px solid teal;
+}

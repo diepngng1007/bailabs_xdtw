@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    height: 100px;
+    text-align: center;
+    position: relative;
+    background-color: mistyrose;
+}
+
+.menu nav{
+    position: absolute;
+    top: 0px;
+    right: 70px;
+    line-height: 100px;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+.menu nav> a{
+    color: black;
+    text-decoration:none;
+    margin: 25px;
+}
+.menu nav a:hover{
+    color: tomato;
+    transition: 0.4s;
+}
+.menu form{
+    position: absolute;
+    left: 50px;
+    color: white;
+    line-height: 100px;
+    
+}
+.menu form input{
+    
+    width: 80%;
+    height: 50px;
+    color: #cdcdcd;
+    font-style: italic;
+    border: white;
+}
+
+.tieude{
+    padding-top: 30px;
+    margin: 0 auto;
+    height: 650px;
+    width: 60%;
+}
+.tieude h3{
+    text-align: center;
+    color: coral;
+    margin-bottom: 10px;
+}
+.tieude form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.tieude form input{
+    color: gray;
+    padding: 15px 15px;
+    border: 1px solid grey;
+    outline: none;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+.tieude form button{
+    padding: 10px;
+    background: white;
+    border: 2px solid orangered;
+    font-size: 15px;
+    font-weight: bold;
+    color:orangered;
+    border-radius: 10px;
+}
+.tieude form button:hover{
+    background: orangered;
+    color: white;
+    transition: .4s;
+}
+.tieude a{
+    font-size: 20px;
+    padding: 10px;
+  text-decoration: none;
+}
+.footer .eV{
+    font-size: 15px;
+    color: black;
+    padding: 2.625rem 0 2.3125rem;
+    background-color: #f5f5f5;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(245, 245, 245);
+    
+}
+._1G{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+._1Q{
+    padding: 0 1.5625rem;
+    border-right: 1px solid #cdcdcd;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+._3H{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+img{
+    width: 8rem;
+    height: 5rem;
+}
+.anh{
+    text-decoration: none;
+    color: black;
+    margin: 0 1.25rem;
+}
+.E14{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.C1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.C2{
+    margin-bottom: 1.56rem;
+}
+.jB{
+    width:75rem;
+    margin: 0 auto;
+}
+.disign{
+    position: absolute;
+    border-top: 1px solid green;
+    padding: 10px;
+    text-align: center;
+    background: mistyrose;
+    color: black;
+   width: 100%;
+}

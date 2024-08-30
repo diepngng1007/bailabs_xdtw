@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.all {
+    width: auto;
+    margin: auto;
+    background-color: #f1f2f3;
+}
+
+/*head*/
+header {
+    height: 115px;
+    background-color: #274503;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    margin: 40px 40px 40px 750px;
+}
+
+/* nav */
+nav {
+    height: 35px;
+    background-color: #437b02;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 35px;
+    margin-left: 50px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* nội dung 1 */
+/* video */
+.conten1 .chinh video {
+    width: 600px;
+    height: 400px;
+    margin: 5px 50px 20px 50px;
+    float: left;
+}
+
+/* table */
+table {
+    width: 550px;
+    margin: 35px 20px 20px 5px;
+    border-collapse: collapse;
+    float: left;
+}
+
+table tr th {
+    width: 100px;
+    border: 1px solid #74b338;
+    padding: 10px;
+}
+
+table tr td {
+    border: 1px solid #74b338;
+    text-align: center;
+    padding: 10px;
+}
+
+.table .dau {
+    background-color: #75b43a;
+    color: #fff;
+}
+
+.table .hai {
+    background-color: #e1f8cb;
+}
+
+/* nội dung 2 */
+.content2 {
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content2 div {
+    width: 20%;
+    height: 322px;
+    border: 1px solid;
+    float: left;
+    margin-right: 50px;
+}
+
+.content2 div img {
+    margin: 9px 25px 18px 25px;
+}
+
+.content2 div p {
+    color: #274503;
+    font-size: 18pt;
+}
+
+.content2 div span {
+    color: red;
+}
+
+.content2 div BUTTON {
+    width: 189px;
+    background-color: #000;
+    color: #fff;
+    font-size: 13pt;
+}
+
+/* footer */
+
+footer {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    background-color: #1f2419;
+    color: #fff;
+    font-size: 18pt;
+}
+

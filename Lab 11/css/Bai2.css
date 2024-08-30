@@ -1,0 +1,27 @@
+table{
+	border-collapse: collapse;
+	width: 50%;
+	text-align: center;
+	margin: 0px auto;
+}
+th, td{
+	border: 2px solid lightblue;
+	padding: 10px;
+}
+th{
+	background:royalblue;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+}
+tr:first-child{
+	background: #d5ecab;
+	font-weight: 600;
+}
+tbody{
+	font-size: 14pt;
+	font-weight: 600;
+}
+tr:nth-child(2n+3){
+	background: gainsboro;
+}

@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    height: 100px;
+    text-align: center;
+    position: relative;
+    background-color: mistyrose;
+}
+
+.menu nav{
+    position: absolute;
+    top: 0px;
+    right: 70px;
+    line-height: 100px;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+.menu nav> a{
+    color: black;
+    text-decoration:none;
+    margin: 25px;
+}
+.menu nav a:hover{
+    color: lightblue;
+    transition: 0.4s;
+}
+.menu form{
+    position: absolute;
+    left: 50px;
+    color: white;
+    line-height: 100px;
+    
+}
+.menu form input{
+    
+    width: 80%;
+    height: 50px;
+    color: #cdcdcd;
+    font-style: italic;
+    border: white;
+}
+
+.footer{
+    position: absolute;
+    top: 1700px;
+    width: 100%;
+}
+.footer .eV{
+    font-size: 15px;
+    color: black;
+    padding: 2.625rem 0 2.3125rem;
+    background-color: #f5f5f5;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(245, 245, 245);
+    
+}
+._1G{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+._1Q{
+    padding: 0 1.5625rem;
+    border-right: 1px solid #cdcdcd;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+._3H{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+img{
+    width: 8rem;
+    height: 5rem;
+}
+.anh{
+    text-decoration: none;
+    color: black;
+    margin: 0 1.25rem;
+}
+.E14{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.C1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.C2{
+    margin-bottom: 1.56rem;
+}
+.jB{
+    width:75rem;
+    margin: 0 auto;
+}
+.disign{
+    position: absolute;
+    border-top: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background: mistyrose;
+    color: black;
+    top:2250px;
+    width: 100%;
+}
+
+article{
+    position: relative;
+    height: 700px;
+    padding-top: 30px;
+    
+}
+.tieude22{
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 600;
+    color: orange;
+}
+.noidung222{
+    position: absolute;
+    background-color: #EEEEEE;
+    height: 1500px;
+    width: 100%;
+}
+.menu222{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height:40px;
+    padding-left: 50px;
+}
+.menu222 a{
+    float: left;
+    text-decoration: none;
+    padding-left: 20px;
+    border: 1px solid;
+    margin: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: #FF9933;
+}
+.menu222 a:hover{
+    background-color: rosybrown;
+}
+.dc{
+    padding: 60px;
+    top: 60px;
+    width: 600px;
+    margin: 0 auto;
+}
+.dc .anhtruong img{
+    width: 100%;
+    height: 50%;
+}
+.dc .maps iframe{
+    width: 100%;
+    height: 300px;
+}
+.a1{
+    padding: 15px;
+}

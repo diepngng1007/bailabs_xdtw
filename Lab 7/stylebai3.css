@@ -1,0 +1,66 @@
+.img{
+    border-top: 100px;
+    width: 400px;
+}
+.container{
+    position: relative;
+    background-color: orangered;
+}
+.right{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    border-bottom-left-radius:  30px;
+}
+
+.right>nav{
+    font-size: 15pt;
+    line-height: 50px;
+    background-color: orangered;
+    color: white;
+    text-align: left;
+    font-variant: small-caps;
+}
+
+.right>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+.left{
+    bottom: 30px;
+    text-align: right;
+}
+.left>nav{
+    font-size: 15pt;
+    line-height: 30px;
+    background-color: orangered;
+    color: white;
+    text-align: right;
+    font-variant: small-caps;
+}
+.left>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+.container>nav{
+    font-size: 20pt;
+    line-height: 50px;
+    background-color: orangered;
+    color: white;
+    text-align: left;
+    font-variant: small-caps;
+}
+
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}

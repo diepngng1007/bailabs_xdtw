@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <style>
+        form {
+            font-variant: small-caps;
+            font-size: 15pt;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label for="">Họ và tên:</label><br>
+        <input type="text"><br><br>
+
+        <label for="">Giới tính của bạn: </label>
+        <label><input type="radio" name="gender">Nam</label>
+        <label><input type="radio" name="gender">Nữ</label> <br><br>
+
+        <Label>Tải ảnh lên</Label><br>
+        <input name="Photo" type="file"><br><br>
+
+        <label>Quốc tịch: </label><br>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Việt Nam"></option>
+            <option value="Thái Lan"></option>
+            <option value="Malaysia"></option>
+            <option value="Campuchia"></option>
+        </datalist><br><br>
+
+        <div>
+            Sở thích: <br>
+            <label><input name="hobby" type="checkbox" value="1">Thể thao</label>
+            <label><input name="hobby" type="checkbox" value="1">Du lịch</label>
+            <label><input name="hobby" type="checkbox" value="1">Âm nhạc</label>
+            <label><input name="hobby" type="checkbox" value="1">Ẩm thực</label>
+        </div><br>
+
+        <label for="">Ghi chú: </label><br>
+        <textarea name="" id="" cols="25" rows="5"></textarea><br>
+        <hr>
+        <button class="submit">Đăng kí</button>
+        <button class="button">Nhập lại</button>
+    </form>
+    <br>
+    <a href="Bai1.html">Chuyen sang bai 1</a>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buổi 7</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h3>ĐĂNG KÍ THÀNH VIÊN</h3>
+    <form>
+        <label>Username: </label><br>
+        <input name="id" type="text"><br>
+        <label>Password: </label><br>
+        <input name="pw" type="password"><br>
+        <label for="">
+            <input name="re" type="checkbox">
+            Remember me?
+        </label>
+        <hr>
+        <button type="submit">Login</button>
+        <!-- Vd 2 -->
+        <br><br><br>
+        <hr>
+        <Label>Tải ảnh lên</Label><br>
+        <br>
+        <input name="Photo" type="file"><br>
+        <hr>
+        <label for="">Giới tính của bạn: </label><br>
+        <label><input type="radio" name="gender" checked>Nam</label>
+        <label><input type="radio" name="gender" checked>Nữ</label> <br>
+        <hr>
+        <label for="">Bạn có nhóm máu: </label><br>
+        <label><input type="radio" name="blood" id="">A</label>
+        <label><input type="radio" name="blood" checked>B</label>
+        <label><input type="radio" name="blood" id="">AB</label>
+        <label><input type="radio" name="blood" id="">O</label>
+        <label><input type="radio" name="blood" id="">Hiếm <br></label>
+        <hr>
+        <label>Tình trạng hôn nhân: </label><br>
+        <label><input type="checkbox">Có gia đình</label>
+        <label><input type="checkbox">Độc thân</label>
+        <label><input type="checkbox">Bê đê</label>
+        <br>
+        <hr>
+        <div>
+            Tình trạng hôn nhân <br>
+            <label><input name="status" type="checkbox">Độc thân?</label>
+        </div>
+        <hr>
+        <div>
+            Sở thích <br>
+            <label><input name="hobby" type="checkbox" value="1">Thể thao</label>
+            <label><input name="hobby" type="checkbox" value="1">Nghe nhạc</label>
+            <label><input name="hobby" type="checkbox" value="1">Xem phim</label>
+            <label><input name="hobby" type="checkbox" value="1">Du lịch</label>
+            <label><input name="hobby" type="checkbox" value="1">Khác</label>
+        </div>
+        <br>
+        <input type="hidden" name="?" value="?">
+        <input type="submit|reset|button|image" value="">
+        <br><br>
+        <label for="">Ghi chú: </label><br>
+        <textarea name="" id="" cols="20" rows="5"></textarea><br>
+        <hr>
+        <select multiple size="4">
+            <option value="">Mục 1</option>
+            <option value="">Mục 2</option>
+            <option value="">Mục 3</option>
+            <option value="">Mục 4</option>
+            <option value="">Mục 5</option>
+        </select><br>
+        <hr>
+
+        <button>Submit</button><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Gửi</button>
+        <br><br>
+        <button><img src="/image/1.png" width="30%">Lưu</button>
+        <button><img src="/image/1.png" width="30%">Sửa</button><br><br>
+    </form>
+
+    <fieldset>
+        <legend>Giới tính</legend>
+        <label for="M"><input type="radio" id="M">Nam</label>
+        <label for="F"><input type="radio" id="F">Nữ</label>
+    </fieldset>
+    <br>
+    <hr>
+    <input tabindex="1" placeholder="Email Address"><br>
+    <input tabindex="2" value="7503" readoly><br>
+    <input tabindex="3"><br>
+    <button tabindex="4">OK</button>
+    <button disabled>Cancel</button><br>
+    <hr>
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Chorme"></option>
+        <option value="Cốc cốc"></option>
+        <option value="Safari"></option>
+    </datalist><br>
+    <hr>
+    <div class="box">
+        <label for="">Tên đăng nhập</label>
+        <input type="text" class="fe">
+    </div>
+    <div class="box">
+        <label for="">Mật khẩu</label>
+        <input type="password" class="fe">
+    </div>
+    <div class="box">
+        <label for="">
+            <input type="checkbox">
+            Ghi nhớ tài khoản?
+        </label>
+    </div>
+    <div class="box">
+        <button class="button">Đăng nhập</button>
+        <button class="button" disabled>Huỷ</button>
+    </div>
+</body>
+
+</html>

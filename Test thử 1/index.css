@@ -1,0 +1,136 @@
+header {
+    background-color: #bcd4f4;
+    height: 150px;
+    width: 980px;
+    text-align: center;
+    margin-left: 450px;
+}
+
+header>img {
+    width: 10%;
+    margin-top: 20px;
+}
+
+nav {
+    width: 980px;
+    height: 40px;
+    background-color: #14294b;
+    margin-left: 450px;
+    text-align: center;
+}
+
+nav>a {
+    color: white;
+    line-height: 40px;
+    margin: 20px;
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 16pt;
+}
+
+nav>a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+article>img {
+    width: 980px;
+    height: 265px;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+
+form {
+    margin-top: 10px;
+    margin-left: 450px;
+    background-color: #14294b;
+    width: 980px;
+    height: 60px;
+}
+
+form>input {
+    margin-top: 15px;
+    width: 745px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+form>button {
+    background-color: #ef660f;
+    width: 120px;
+    height: 35px;
+    border: 1px solid white;
+    margin-left: 40px;
+    color: white;
+}
+
+h2 {
+    font-size: 15pt;
+    font-family: tahoma;
+    color: #ad4601;
+    margin: 10px 20px 0px 20px;
+}
+
+h2:hover {
+    color: red;
+}
+
+.box {
+    border: 1px solid red;
+    width: 480px;
+    height: 390px;
+    float: left;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.box>img {
+    margin: 20px;
+}
+
+.box2 {
+    border: 1px solid red;
+    width: 480px;
+    height: 390px;
+    float: left;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box2>img {
+    margin: 20px;
+}
+
+.box3 {
+    border: 1px solid red;
+    width: 980px;
+    height: 310px;
+    float: left;
+    margin-left: 450px;
+    margin-bottom: 10px;
+}
+
+.box3>img {
+    float: left;
+    margin: 10px 20px 0px 20px;
+}
+
+p {
+    font-size: 13pt;
+    font-family: tahoma;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #bcd4f4;
+    text-align: center;
+    clear: both;
+    width: 983px;
+    height: 112px;
+    line-height: 112px;
+    font-family: Tahoma;
+    font-size: 20pt;
+    margin-left: 450px;
+}
